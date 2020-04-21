@@ -53,16 +53,5 @@
     navbarCollapse();
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
-
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.parallax');
-        var instances = M.Parallax.init(elems, options);
-      });
-    
-      // Or with jQuery
-    
-      $(document).ready(function(){
-        $('.parallax').parallax();
-      });
       
 })(jQuery); // End of use strict
